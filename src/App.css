@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+h1 {
+    margin: 0px;
+    padding: 10px;
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.App {
+    text-align: center;
+}
+
+.inner-class {
+    display: flex;
+    justify-content: center;
+}
+
+.CodeMirror {
+    border-radius: 0px !important;
+    font-size: 25px !important;
+    color: #d4d4d4 !important;
+    font-weight: bold !important;
+}
+
+.cm-s-material-darker .CodeMirror-linenumber {
+    color: #c4c4c4 !important;
+}
+
+.CodeMirror-sizer {
+    margin-left: 60px !important;
+}
+
+.CodeMirror div.CodeMirror-cursor {
+    width: auto !important;
+    border: 0 !important;
+    background: aliceblue !important;
+}
+
+.playground {
+    display: flex;
+}

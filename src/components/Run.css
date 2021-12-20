@@ -1,0 +1,66 @@
+.btn {
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 90px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    border-radius: 10px;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before {
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+.btn-sep {
+    padding: 25px 60px 25px 60px;
+}
+
+.btn-sep:before {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.btn-2 {
+    background: #00ff47;
+    color: #212121;
+}
+
+.btn-2:hover {
+    background: #00ff47;
+}
+
+.btn-2:active {
+    background: #00ff47;
+    top: 2px;
+}
+
+.btn-2:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+}
