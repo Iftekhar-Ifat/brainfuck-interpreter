@@ -21,7 +21,7 @@ function App() {
                 <CodeMirror
                     options={{ theme: "material-darker" }}
                     value=""
-                    height="79vh"
+                    height="80vh"
                     width="50vw"
                     onChange={(value, viewUpdate) => {
                         setRun({
