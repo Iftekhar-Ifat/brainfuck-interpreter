@@ -12,11 +12,7 @@ function App() {
     return (
         <div className="container">
             <Header />
-            <div className="outer-class">
-                <div className="inner-class">
-                    <SecondHeader setRun={setRun} run={run} setCode={setCode} />
-                </div>
-            </div>
+            <SecondHeader setRun={setRun} run={run} setCode={setCode} />
             <div className="playground">
                 <CodeMirror
                     options={{ theme: "material-darker" }}
