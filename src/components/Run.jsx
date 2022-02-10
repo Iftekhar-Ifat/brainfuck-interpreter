@@ -27,10 +27,7 @@ const Run = ({ run, setRun, setCode }) => {
     };
     return (
         <div>
-            <button
-                className="btn btn-2 btn-sep icon-cart"
-                onClick={runHandler}
-            >
+            <button className="btn btn-2 btn-sep" onClick={runHandler}>
                 Run
             </button>
         </div>

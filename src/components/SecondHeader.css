@@ -1,7 +1,23 @@
 .sec-header {
     background-color: #212121;
-    height: 100px;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+@media (max-width: 682px) {
+    .sec-header {
+        font-size: 0.5rem;
+        height: 7vh;
+        border-bottom-style: solid;
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        border-color: gray;
+        justify-content: center;
+    }
+    h1 {
+        display: none;
+    }
 }

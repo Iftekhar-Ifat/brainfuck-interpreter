@@ -1,14 +1,13 @@
 .btn {
     border: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     cursor: pointer;
     display: inline-block;
-    margin-top: 15px;
-    margin-left: 90px;
+    margin-top: 0.6rem;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
     font-weight: bolder;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     outline: none;
     position: relative;
     -webkit-transition: all 0.3s;
@@ -63,4 +62,15 @@
     line-height: 3;
     font-size: 140%;
     width: 60px;
+}
+
+@media (max-width: 682px) {
+    .btn-sep {
+        padding: 15px 30px 15px 30px;
+    }
+    .btn {
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 0.3rem;
+    }
 }

@@ -46,3 +46,13 @@ body {
 .playground {
     display: flex;
 }
+
+@media (max-width: 682px) {
+    .playground {
+        display: block;
+    }
+    .CodeMirror {
+        height: 44vh !important;
+        width: 100% !important;
+    }
+}

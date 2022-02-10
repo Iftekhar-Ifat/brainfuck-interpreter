@@ -1,9 +1,15 @@
 .console-div {
     color: black;
-    height: 79vh;
+    height: 80vh;
     width: 50vw;
 }
 h2 {
     padding-top: 30px;
     padding-left: 30px;
+}
+
+@media (max-width: 682px) {
+    .console-div {
+        height: 40vh;
+    }
 }
